@@ -1,0 +1,112 @@
+body{
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Raleway' Verdana;
+}
+a{
+    color: #4d96c6;
+    text-decoration: none;
+}
+a:hover{
+    color: #00b5ff;
+    text-decoration: none;
+}
+a:visited{
+    color: #4d96c6;
+    text-decoration: none;
+}
+
+.header{
+    font-family: 'Bad Script';
+    margin-top: 50px;
+    text-align: center;
+}
+
+.header .header__title{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header .header__subtitle{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.header .header__link{
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation{
+    text-align: center;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    max-width: 640px;
+    margin: 40px auto 0px;
+    padding: 10px 0px 10px;
+
+}
+
+.navigation .navigation__link{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dashed #000;
+    margin: 0 10px;
+}
+
+.navigation .navigation__link:hover{
+    color: #4d96c6;
+    border-bottom: 1px dashed #4d96c6;
+}
+
+.content{
+    max-width: 640px;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+
+.post{
+    margin: 30px 0px 50px;
+}
+.post .post__title{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.post .post__details{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.post .post__details--grey{
+    color: #c2c2c2;
+}
+
+.post .post__tags{
+    text-align: center;
+}
+
+.post .post__short-body{
+    text-align: justify;
+    margin-top: 12px;
+}
+
+.post .post__end{
+    border-top: 1px dashed #c2c2c2;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.post .post__end .post__share-buttons{
+    float: left;
+}
+
+.post .post__end .post__more{
+    float: right;
+}
