@@ -125,3 +125,13 @@ a:visited{
 .footer .footer-git{
     float: right;
 }
+
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+    margin: -1px;
+    padding: 0px 10px;
+    display: block;
+    float: right;
+    height: 18px !important;
+}
