@@ -110,3 +110,18 @@ a:visited{
 .post .post__end .post__more{
     float: right;
 }
+
+.footer{
+    border-top: 1px solid #c2c2c2;
+    padding: 20px 0px;
+    max-width: 640px;
+    margin: auto;
+}
+
+.footer .footer-twitter{
+    float: left;
+}
+
+.footer .footer-git{
+    float: right;
+}
