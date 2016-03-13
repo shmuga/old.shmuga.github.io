@@ -1,0 +1,82 @@
+html, body{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  background:#000;
+  min-width: 770px;
+  color: #fff;
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.history {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history > div{
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-left: 130px;
+  display: flex;
+}
+
+.history > div > img {
+  width: 120px;
+}
+
+.postmen {
+  margin-right: 20px;
+}
+
+.gb::before {
+  width: 80px;
+  left: -100px;
+  top: 20px;
+  background: red;
+  height: 80px;
+  background: url('../img/running.png') no-repeat center;
+  background-size: 75px auto;
+  display: block;
+  position: absolute;
+  content: '';
+}
+
+
+.amnesty::before {
+  width: 80px;
+  left: -100px;
+  top: 20px;
+  background: red;
+  height: 80px;
+  background: url('../img/bag.png') no-repeat center;
+  background-size: 75px auto;
+  display: block;
+  position: absolute;
+  content: '';
+}
+
+.postmen::before {
+  width: 80px;
+  left: -100px;
+  top: 20px;
+  background: red;
+  height: 80px;
+  background: url('../img/superman.png') no-repeat center;
+  background-size: 75px auto;
+  display: block;
+  position: absolute;
+  content: '';
+}
+
+
+.text {
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
