@@ -1,0 +1,32 @@
+html, body{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	background:#f1563a;
+}
+
+body{
+	background:#f1563a url(../img/mobile-v.gif) center top no-repeat;
+	margin-top:100px;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}
+
+.hire{
+  animation: blinker 1s linear infinite;
+	display:block;
+	height:100%;
+	width:100%;
+  background: url(../img/hire.png) center top no-repeat;
+  position: relative;
+  top: -3px;
+}
+@media only screen and (max-width:500px){
+body{
+	background:#f1563a url(../img/mobile-v.gif) center top no-repeat;
+	background-size:100% auto;
+	margin-top:50px;
+}
