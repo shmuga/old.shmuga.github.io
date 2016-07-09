@@ -1,0 +1,45 @@
+<!--<head>-->
+  <!--<link href="https://dev.twitter.com/web/tweet-button">-->
+  <!--<link rel="stylesheet" href="./reset.css">-->
+  <!--<link rel="stylesheet" href="./styles.css">-->
+
+
+  <!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
+  <!--<script>-->
+    <!--window.fbAsyncInit = function() {-->
+      <!--FB.init({-->
+        <!--appId      : '904882992927408',-->
+        <!--xfbml      : true,-->
+        <!--version    : 'v2.5'-->
+      <!--});-->
+    <!--};-->
+
+    <!--(function(d, s, id){-->
+      <!--var js, fjs = d.getElementsByTagName(s)[0];-->
+      <!--if (d.getElementById(id)) {return;}-->
+      <!--js = d.createElement(s); js.id = id;-->
+      <!--js.src = "//connect.facebook.net/en_US/sdk.js";-->
+      <!--fjs.parentNode.insertBefore(js, fjs);-->
+    <!--}(document, 'script', 'facebook-jssdk'));-->
+  <!--</script>-->
+
+  <!--<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>-->
+<!--</head>-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:600,700' rel='stylesheet' type='text/css'>
+
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>
